@@ -2,7 +2,7 @@ require "yaml"
 
 def load_library(path)
   emoticons = YAML.load_file(path)
-  emoticon_list = {'get_meaning' => {emoticons["angel"][1], emoticons["bored"], [1]"grinning"][1], emoticons["surprised"][1], emoticons["wink"][1]}, 'get_emoticon' => {}}
+  emoticon_list = {'get_meaning' => {emoticons["angel"], emoticons["bored"], emoticons["bored"], emoticons["surprised"], emoticons["wink"]}, 'get_emoticon' => {}}
   
 end
 
